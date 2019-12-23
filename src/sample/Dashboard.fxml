@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<FlowPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox maxHeight="125.0" prefHeight="75.0" prefWidth="802.0">
+         <children>
+            <JFXHamburger prefHeight="57.0" prefWidth="200.0" />
+         </children>
+      </HBox>
+      <VBox prefHeight="524.0" prefWidth="200.0">
+         <children>
+            <JFXButton prefHeight="60.0" prefWidth="200.0" text="Product Management" />
+            <JFXButton prefHeight="60.0" prefWidth="200.0" text="Stock Management">
+               <VBox.margin>
+                  <Insets top="50.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="60.0" prefWidth="150.0" text="Bookings">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="60.0" prefWidth="150.0" text="Fill Orders">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </JFXButton>
+            <JFXButton prefHeight="60.0" prefWidth="200.0" text="LogOut">
+               <VBox.margin>
+                  <Insets top="100.0" />
+               </VBox.margin>
+            </JFXButton>
+         </children>
+         <FlowPane.margin>
+            <Insets />
+         </FlowPane.margin></VBox>
+   </children>
+</FlowPane>
