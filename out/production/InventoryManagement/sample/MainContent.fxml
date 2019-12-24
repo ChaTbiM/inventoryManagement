@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="mainContent" layoutX="204.0" layoutY="75.0" prefHeight="518.0" prefWidth="602.0"
+        xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.MainContentController" >
+    <children>
+        <Label contentDisplay="CENTER" layoutX="171.0" layoutY="172.0" prefHeight="82.0" prefWidth="200.0" text="Number Of PRoducts" />
+        <Label contentDisplay="CENTER" layoutX="292.0" layoutY="247.0" prefHeight="82.0" prefWidth="200.0" text="Number Of Suppliers" />
+        <Label contentDisplay="CENTER" layoutX="71.0" layoutY="329.0" prefHeight="82.0" prefWidth="200.0" text="Number Of clients" />
+    </children>
+</AnchorPane>

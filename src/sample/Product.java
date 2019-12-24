@@ -11,8 +11,13 @@ public class Product {
     protected boolean inStock; // stock null
     protected int minimumInStock;
 
+
+
+    protected int id;
+
     // Constructors
-    public Product(String designation, float buyingPrice, int minimumInStock) {
+    public Product(int id,String designation, float buyingPrice, int minimumInStock) {
+        this.id = id;
         this.designation = designation;
 
         this.reference = String.valueOf(this.designation.charAt(0));
@@ -31,6 +36,14 @@ public class Product {
         this.designation = designation ;
     }
     // Getters And Setters
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getDesignation() {
         return designation;

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane layoutX="204.0" layoutY="75.0" prefHeight="518.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ProductManagementController">
+   <children>
+      <Button layoutX="110.0" layoutY="79.0" mnemonicParsing="false" text="Add Product" />
+      <TableView fx:id="table" layoutX="39.0" layoutY="176.0" prefHeight="298.0" prefWidth="548.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="38.0" text="id" />
+          <TableColumn fx:id="col_reference" prefWidth="68.0" text="reference" />
+            <TableColumn fx:id="col_minimumInStock" prefWidth="114.0" text="minimum in stock" />
+            <TableColumn fx:id="col_quantity" prefWidth="114.0" text="Quantity" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

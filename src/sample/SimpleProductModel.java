@@ -4,9 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class SimpleProduct extends Product {
-    SimpleProduct(String designation, float buyingPrice, int minimumInStock, int category) {
-        super(designation, buyingPrice, minimumInStock);
+public class SimpleProductModel extends Product {
+
+    SimpleProductModel(int id,String designation, float buyingPrice, int minimumInStock, int category) {
+        super(id,designation, buyingPrice, minimumInStock);
 //        if(category == 1)	{
 //            // read price from user
 //            int price = 0;
@@ -19,7 +20,7 @@ public class SimpleProduct extends Product {
         this.type = "simple";
     }
 
-    SimpleProduct(String designation){
+    SimpleProductModel(String designation){
         super(designation);
     }
 
