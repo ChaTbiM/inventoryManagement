@@ -8,6 +8,7 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 
+import java.io.IOException;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -57,4 +58,11 @@ public class ProductManagementController implements Initializable {
         table.setItems(productsList);
         System.out.println("done");
     }
+
+    public void addProductBtn() throws IOException {
+        AddProductController.displayAddProduct();
+
+    }
+
+
 }
