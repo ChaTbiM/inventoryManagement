@@ -47,8 +47,6 @@ public class ProductManagementController implements Initializable {
             e.printStackTrace();
         }
 
-
-
         col_id.setCellValueFactory(new PropertyValueFactory<>("id"));
         col_reference.setCellValueFactory(new PropertyValueFactory<>("reference"));
         col_minimumInStock.setCellValueFactory(new PropertyValueFactory<>("minimumInStock"));
